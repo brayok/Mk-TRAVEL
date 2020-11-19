@@ -1,0 +1,7 @@
+body {background-image: url("image.jpg");
+       background-size: 100%;
+    background-repeat: no-repeat;}
+
+li {color:black; font-size: xx-large;}
+
+h1 {color: red; font-style: italic; font-size: xx-large; text-align: center;}

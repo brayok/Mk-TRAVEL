@@ -1,25 +1,19 @@
-header {word-spacing: 30px; color: chocolate;}
+header {word-spacing: 30px; color: chocolate; list-style: none;
+  text-align: center;}
 
-h1 {color: red;text-align: center; font-size: xx-large;}
+h1 {color: yellowgreen;text-align: center; font-size: xx-large;font-style: italic;}
 
-footer {color: crimson;}
+footer {color: crimson;
+        position: relative;}
 
 body {background-image: url("image.jpg");
        background-size: 100%;
        background-repeat: no-repeat;
        height: 100%;}
 
- ul {display: grid;} 
+ ul {display: grid; display: inline-block;} 
 
 * {margin: 0%;
    padding: 0%;}
 
- #container { min-height: 100%;}  
-
- #main {overflow: auto;
-         padding-bottom: 100%;}
-      
- footer {position: relative;
-          height: 70px;
-          margin-top: -50px;
-          clear: both;}        
+p {color: red; font-size: xx-large;}       
